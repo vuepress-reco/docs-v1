@@ -10,7 +10,7 @@ git commit -m 'deploy'
 
 # git push -f git@git.coding.net:recoluan/vuepress-theme-reco-doc.git master
 
-git push -f git@github.com:vuepress-reco/vuepress-reco.github.io.git master
+git push -f git@github.com:vuepress-reco/docs-v1.git master
 
 cd ../
 rm -rf public

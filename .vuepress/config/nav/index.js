@@ -9,7 +9,7 @@ module.exports = {
           items: [
             {
               text: "2.x(beta)",
-              link: "https://vuepress-theme-reco.recoluan.com",
+              link: "http://v1.vuepress-reco.recoluan.com",
             },
             { text: "1.x", link: "/views/1.x/" },
             { text: "0.x", link: "/views/0.x/" },
@@ -33,7 +33,7 @@ module.exports = {
     },
     {
       text: "订阅",
-      link: "https://vuepress-theme-reco.recoluan.com/rss.xml",
+      link: "http://v1.vuepress-reco.recoluan.com/rss.xml",
       icon: "reco-rss",
     },
     {
@@ -70,7 +70,7 @@ module.exports = {
     },
     {
       text: "RSS",
-      link: "https://vuepress-theme-reco.recoluan.com/rss.xml",
+      link: "http://v1.vuepress-reco.recoluan.com/rss.xml",
       icon: "reco-rss",
     },
     {

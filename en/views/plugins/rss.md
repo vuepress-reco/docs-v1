@@ -17,7 +17,7 @@ RSS plugin only for vuepress-theme-reco.
 
 - required: `true`
 - description: 网站地址
-- example: `https://vuepress-theme-reco.recoluan.com`
+- example: `http://v1.vuepress-reco.recoluan.com`
 
 ### copyright
 

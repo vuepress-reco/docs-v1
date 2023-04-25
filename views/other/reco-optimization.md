@@ -959,7 +959,7 @@ https://www.npmjs.com/package/@vuepress-yard/vuepress-plugin-window
 ## 参考资料
 
 znote：https://zpj80231.gitee.io/znote/views/front-end/vuepress-plugin-boxx.html
-vuepress-theme-reco：https://vuepress-theme-reco.recoluan.com/
+vuepress-theme-reco：http://v1.vuepress-reco.recoluan.com/
 
 
 

@@ -91,7 +91,7 @@ module.exports = {
     [
       "@vuepress-reco/rss",
       {
-        site_url: "https://vuepress-theme-reco.recoluan.com",
+        site_url: "http://v1.vuepress-reco.recoluan.com",
         copyright: "",
       },
     ],
