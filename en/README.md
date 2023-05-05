@@ -81,11 +81,11 @@ yarn install
     src="https://img.shields.io/github/contributors/vuepress-reco/vuepress-theme-reco-1.x?style=for-the-badge&logo=github&label=vuepress-theme-reco" />
 </a>
 
-<a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/vuepress-reco.github.io/graphs/contributors" target="_black">
+<a style="display: block;margin-top: 10px" href="https://github.com/vuepress-reco/docs-v1/graphs/contributors" target="_black">
   <img 
-    alt="vuepress-reco.github.io" 
-    src="https://img.shields.io/github/contributors/vuepress-reco/vuepress-reco.github.io?style=for-the-badge&logo=github&label=vuepress-reco.github.io" />
+    alt="docs-v1" 
+    src="https://img.shields.io/github/contributors/vuepress-reco/docs-v1?style=for-the-badge&logo=github&label=docs-v1" />
 </a>
 
 <!-- <Contributors user="vuepress-reco" repo="vuepress-theme-reco" :show-title="true"></Contributors>
-<Contributors user="vuepress-reco" repo="vuepress-reco.github.io" :show-title="true"></Contributors> -->
+<Contributors user="vuepress-reco" repo="docs-v1" :show-title="true"></Contributors> -->

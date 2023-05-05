@@ -6,7 +6,7 @@ isShowComments: true
 <plugins-recommend></plugins-recommend>
 
 ::: tip
-这里列出的是比较优秀且实用的插件，弥补官方无插件商店的缺憾，方便大家快速找到想要的插件。如果大家有推荐，请直接在 Github 编辑该页面（点击 [这里](https://github.com/vuepress-reco/vuepress-reco.github.io/edit/gh-pages-source/docs/.vuepress/data/pluginsData.js)），或者在留言区留言，格式请参考下方：
+这里列出的是比较优秀且实用的插件，弥补官方无插件商店的缺憾，方便大家快速找到想要的插件。如果大家有推荐，请直接在 Github 编辑该页面（点击 [这里](https://github.com/vuepress-reco/docs-v1/edit/gh-pages-source/docs/.vuepress/data/pluginsData.js)），或者在留言区留言，格式请参考下方：
 
 ```json
 {
