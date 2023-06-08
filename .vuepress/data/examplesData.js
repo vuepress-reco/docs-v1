@@ -1,5 +1,11 @@
 export default [
   {
+    name: "Cleaner",
+    desc: "岁月漫长，要心地善良",
+    link: "https://songjian-99.github.io/",
+    thumbnail: "https://songjian-99.github.io/logo.jpg",
+  },
+  {
     name: "爱自己，是终身浪漫的开始",
     desc: "To love oneself is the beginning of a lifelong romance",
     link: "https://dragon-chen777.github.io/NOxONE/",
