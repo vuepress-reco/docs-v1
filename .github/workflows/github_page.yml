@@ -1,35 +1,27 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["gh-pages-source"]
 
-# 一个workflow由执行的一项或多项job
 jobs:
-  # 一个job任务，任务名为build
-  build:
-    # runs-on 指定job任务运行所需要的虚拟机环境(必填字段)
+  deploy:
     runs-on: ubuntu-latest
-    # steps是每个Job的运行步骤，可以包含一个或多个步骤
     steps:
-      # action命令，切换分支获取源码
-      - name: Checkout
-        # 使用action库  actions/checkout获取源码
-        uses: actions/checkout@master
-      # action命令，安装Node10
-      - name: use Node.js 14
-        # 使用action库  actions/setup-node安装node
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: 14
-      # action命令，install && test
-      - name: npm install and test
-        # 运行的命令或者 action
-        run: |
-          npm install
-          npm run deploy
-        # 环境变量
+          node-version: 16
+          cache: npm
+      - run: npm install
+
+      - name: Build
+        run: npm run docs:build
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: master
+          build_dir: public
         env:
-          CI: true
+          GITHUB_TOKEN: ${{ secrets.ACTION_FOR_PAGE }}
