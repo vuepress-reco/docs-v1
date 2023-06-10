@@ -24,4 +24,4 @@ jobs:
           target_branch: master
           build_dir: public
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTION_FOR_PAGE }}
+          GITHUB_TOKEN: ${{ secrets.PAGE_TOKEN }}
