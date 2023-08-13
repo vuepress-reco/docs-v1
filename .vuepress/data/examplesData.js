@@ -1,4 +1,10 @@
 export default [
+    {
+    name: "明",
+    desc: "公众号：程序员小明1024https://www.stucoding.com/",
+    link: "https://www.stucoding.com/",
+    thumbnail: "https://www.stucoding.com/assets/mybatis/1/1-1.png",
+  },
   {
     name: "Cleaner",
     desc: "岁月漫长，要心地善良",
