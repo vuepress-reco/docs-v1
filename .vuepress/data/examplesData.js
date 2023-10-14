@@ -1,5 +1,11 @@
 export default [
     {
+        name: "Chivas-Regal的技术栈",
+        desc: "分享算法与全栈知识、主题自定义策略 （from ACMer）...",
+        link: "https://tech.chivas-regal.top/",
+        thumbnail: "https://cr-demo-blog-1308117710.cos.ap-nanjing.myqcloud.com/chivas-regal/20231014160535.png"
+    },
+    {
     name: "明",
     desc: "公众号：程序员小明1024 https://www.stucoding.com/",
     link: "https://www.stucoding.com/",
