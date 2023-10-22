@@ -7,7 +7,7 @@ export default [
     },
     {
     name: "明",
-    desc: "公众号：程序员小明1024 https://www.stucoding.com/",
+    desc: "专注全栈分享。 公众号：程序员小明1024 https://www.stucoding.com/",
     link: "https://www.stucoding.com/",
     thumbnail: "https://www.stucoding.com/assets/mybatis/1/1-1.png",
   },
