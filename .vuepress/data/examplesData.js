@@ -1,5 +1,11 @@
 export default [
     {
+      name: '超炫之家',
+      desc: '致敬大师，致敬未来的你！',
+      link: 'https://www.caochaochao.cn/',
+      thumbnail: 'https://www.caochaochao.cn/img/home.png'
+    },
+    {
         name: "Chivas-Regal的技术栈",
         desc: "分享算法与全栈知识、主题自定义策略 （from ACMer）...",
         link: "https://tech.chivas-regal.top/",
