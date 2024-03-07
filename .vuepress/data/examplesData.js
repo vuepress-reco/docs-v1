@@ -3,7 +3,7 @@ export default [
       name: '超炫之家',
       desc: '致敬大师，致敬未来的你！',
       link: 'https://www.caochaochao.cn/',
-      thumbnail: 'https://www.caochaochao.cn/img/home.png'
+      thumbnail: 'https://minio.caochaochao.cn/superc/home.png'
     },
     {
         name: "Chivas-Regal的技术栈",
